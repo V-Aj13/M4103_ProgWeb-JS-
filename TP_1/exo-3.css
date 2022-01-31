@@ -1,0 +1,15 @@
+/*body {
+  background-color: red;
+}*/
+
+.splat {
+  /*border: 2px solid black;*/
+  position: absolute;
+  /*right:42.45em;
+  top: 80px*/
+  
+}
+
+.tux{
+    position: absolute;
+}
