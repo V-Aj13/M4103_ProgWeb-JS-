@@ -11,6 +11,10 @@ $(document).ready(function () {
     $("#total").text(calculer_total());
     $("#mediane").text(calculer_mediane());
     trier();
+
+    if (joueur.nom.length === 0 && /^\d+$/.test(joueur.score) === false) {
+      alert("Name and number has been entered!");
+    }
   });
 
   console.log("La mise en place est finie. En attente d'événements...");
